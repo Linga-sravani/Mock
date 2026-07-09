@@ -31,7 +31,7 @@ export function Header() {
               <span className="text-white font-serif text-xl font-bold">H</span>
             </div>
             <div className="hidden sm:block">
-              <h1 className="text-xl lg:text-2xl font-serif font-bold text-stone-800">Heritage Living</h1>
+              <h1 className="text-xl lg:text-2xl font-serif font-bold text-stone-800">Natura</h1>
               <p className="text-xs text-stone-500 -mt-1">Traditional • Natural • Healthy</p>
             </div>
           </Link>

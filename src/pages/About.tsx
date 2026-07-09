@@ -40,7 +40,7 @@ export function About() {
               viewport={{ once: true }}
             >
               <h2 className="text-3xl font-serif font-bold text-stone-800 mb-6">
-                Why Heritage Living?
+                Why Natura?
               </h2>
               <p className="text-stone-600 mb-4">
                 In a world dominated by plastic and chemicals, we're bringing back the wisdom of our grandparents. Our ancestors lived healthier lives using simple, natural products that stood the test of time.
@@ -49,7 +49,7 @@ export function About() {
                 Copper bottles that purify water naturally. Cast iron cookware that adds iron to your food. Clay pots that cool water without electricity. These aren't just products – they're a return to a healthier way of life.
               </p>
               <p className="text-stone-600">
-                At Heritage Living, we curate authentic, handcrafted products that honor traditional craftsmanship while meeting modern quality standards. Every product tells a story of skilled artisans and time-tested wisdom.
+                At Natura, we curate authentic, handcrafted products that honor traditional craftsmanship while meeting modern quality standards. Every product tells a story of skilled artisans and time-tested wisdom.
               </p>
             </motion.div>
             <motion.div

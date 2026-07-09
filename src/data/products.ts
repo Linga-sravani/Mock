@@ -276,7 +276,7 @@ export const testimonials = [
     id: 1,
     name: 'Priya Sharma',
     location: 'Mumbai',
-    text: 'Switching to copper bottles and clay pots has transformed my family\'s health. No more plastic, no more chemicals. Heritage Living made it easy!',
+    text: 'Switching to copper bottles and clay pots has transformed my family\'s health. No more plastic, no more chemicals. Natura made it easy!',
     rating: 5,
     product: 'Copper Water Bottle'
   },

@@ -233,7 +233,7 @@ export function Home() {
                 Switch to Traditional Living Today
               </h3>
               <p className="text-amber-100">
-                Use code HERITAGE20 for 20% off your first order
+                Use code NATURA20 for 20% off your first order
               </p>
             </div>
             <Link
@@ -321,7 +321,7 @@ export function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl sm:text-4xl font-serif font-bold mb-4">
-              The Heritage Living Difference
+              The Natura Difference
             </h2>
             <p className="text-stone-400 max-w-2xl mx-auto">
               We're not just selling products – we're reviving a healthier way of life

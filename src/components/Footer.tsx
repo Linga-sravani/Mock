@@ -7,7 +7,7 @@ export function Footer() {
       <div className="bg-gradient-to-r from-amber-700 to-amber-800 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h3 className="text-2xl font-serif font-bold text-white mb-2">
-            Join the Heritage Living Family
+            Join the Natura Family
           </h3>
           <p className="text-amber-100 mb-6">
             Get exclusive offers, health tips, and new product updates
@@ -32,10 +32,10 @@ export function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-amber-700 rounded-full flex items-center justify-center">
-                <span className="text-white font-serif text-xl font-bold">H</span>
+                <span className="text-white font-serif text-xl font-bold">N</span>
               </div>
               <div>
-                <h4 className="text-xl font-serif font-bold text-white">Heritage Living</h4>
+                <h4 className="text-xl font-serif font-bold text-white">Natura</h4>
                 <p className="text-xs text-stone-400">Traditional • Natural • Healthy</p>
               </div>
             </div>
@@ -105,7 +105,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-stone-800 mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-stone-500 text-sm">
-            © 2024 Heritage Living. All rights reserved.
+            © 2024 Natura. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-sm">
             <a href="#" className="hover:text-amber-400 transition-colors">Privacy Policy</a>

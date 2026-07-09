@@ -28,7 +28,7 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-gradient-to-br from-amber-600 to-amber-800 rounded-full flex items-center justify-center">
-              <span className="text-white font-serif text-xl font-bold">H</span>
+              <span className="text-white font-serif text-xl font-bold">N</span>
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl lg:text-2xl font-serif font-bold text-stone-800">Natura</h1>

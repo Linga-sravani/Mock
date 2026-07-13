@@ -1,4 +1,4 @@
-# EcomMock
+# Mock
 
 A modern e-commerce frontend built with **React**, **TypeScript**, and **Vite**. The application showcases traditional and natural kitchen products through a responsive and user-friendly shopping experience.
 

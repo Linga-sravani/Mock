@@ -1,73 +1,148 @@
-# React + TypeScript + Vite
+# EcomMock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce frontend built with **React**, **TypeScript**, and **Vite**. The application showcases traditional and natural kitchen products through a responsive and user-friendly shopping experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Home page with featured products
+- Product listing page
+- Product detail page
+- Categories page
+- Shopping cart sidebar
+- Responsive user interface
+- Reusable React components
+- TypeScript support for type safety
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React
+- TypeScript
+- Vite
+- CSS
+- Context API (Cart Management)
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## Project Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```
+src/
+├── components/
+│   ├── Header
+│   ├── Footer
+│   ├── ProductCard
+│   └── CartSidebar
+│
+├── pages/
+│   ├── Home
+│   ├── Products
+│   ├── ProductDetail
+│   ├── Categories
+│   └── About
+│
+├── context/
+│   └── CartContext
+│
+├── data/
+│   └── products
+│
+├── types/
+│
+├── App.tsx
+└── main.tsx
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Getting Started
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+### Clone the repository
+
+```bash
+git clone https://github.com/Techvaridh/EcomMock.git
 ```
+
+### Navigate into the project
+
+```bash
+cd EcomMock
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the development server
+
+```bash
+npm run dev
+```
+
+Open your browser and visit:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## Future Enhancements
+
+- User Authentication
+- Wishlist
+- Product Search
+- Product Filters
+- Checkout Flow
+- Payment Gateway Integration
+- Backend API Integration
+- Order History
+- Admin Dashboard
+
+---
+
+## Learning Objectives
+
+This project was built to practice:
+
+- React Components
+- TypeScript
+- State Management using Context API
+- Routing
+- Component Reusability
+- Frontend Project Structure
+- Git & GitHub Workflow
+
+---
+
+## Author
+
+**Linga Sravani**
+
+- GitHub: https://github.com/Linga-sravani
+- LinkedIn: https://www.linkedin.com/in/sravanilinga
+
+---
+
+## License
+
+This project is intended for educational and portfolio purposes.
